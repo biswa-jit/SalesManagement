@@ -1,0 +1,45 @@
+<html>
+<body>
+<center><h2><u>Direct Lost Entry Form</u></h2></center>
+
+	
+	<form method='POST' action='direct_lost_entry.php'>
+<table>
+<tr><td>Name</td><td><input type='text' name='customer_name' required></td></tr>
+<tr><td>Contact Person</td><td><input type='text' name='contact_person'></td></tr>
+<tr><td>Contact No</td><td><input type='text' name='contact_no'></td></tr>
+<tr><td>Address</td><td><input type='text' name='address'></td></tr>
+<tr><td>City</td><td><input type='text' name='city'></td></tr>
+<tr><td>Branch</td><td><input type='text' name='branch'></td></tr>
+<tr><td>Financer</td><td><input type='text' name='financer'></td></tr>
+<tr><td>Competition</td><td><input type='text' name='competition'></td></tr>
+<tr><td>Model</td><td><input type='text' name='model'></td></tr>
+<tr><td>Model</td><td><input type='text' name='model'></td></tr>
+<tr><td>Category</td><td><select name='category'>
+				<option value='GPPE Excavator'>GPPE Excavator</option>
+				<option value='GPPE Loader'>GPPE Loader</option>
+				<option value='RM Soil'>RM Soil</option><br>
+				<option value='RM Asphalt'>RM Asphalt</option>
+				<option value='RM Grader'>RM Grader</option>
+				<option value='SDLG 3Ton'>SDLG 3Ton</option>
+				<option value='SDLG 5Ton'>SDLG 5Ton</option>
+				<option value='SDLG Grader'>SDLG Grader</option>
+	</select></td></tr>
+
+
+<tr><td>Price</td><td><input type='text' name='price'></td></tr>
+<tr><td>Reason for Loss:</td><td><select>   <option>Price</option>
+											<option>Technical Feature</option>
+											<option>After sales support</option>
+											<option>Relationship with competition</option>
+											<option>Finance Package</option>
+											<option>Others</option>
+							     </select></td></tr>
+<tr><td>Competition Model</td><td><input type='text' name='competition_model'></td></tr>
+<tr><td>Remarks</td><td><textarea name='remarks' required></textarea></td></tr></table>
+<input type='submit' value="Submit">
+</form>
+</body>
+
+
+</html>
